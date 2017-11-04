@@ -1,0 +1,25 @@
+.main-header {
+  height: 50vh;
+  background: {
+    image: url('../img/first-screen-bg.jpg');
+    repeat: no-repeat;
+    size: cover;
+  };
+}
+
+.header-nav {
+  display: flex;
+  padding: 3rem 0;
+
+  .nav-item {
+    padding: 0 3rem;
+  }
+
+  a {
+    color: $header-nav-item;
+
+    &:hover {
+      color: $header-nav-item-hover;
+    }
+  }
+}
