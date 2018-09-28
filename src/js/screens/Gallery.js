@@ -1,11 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-const Gallery = () => {
-    return (
-        <main className="main-content">
-            <h2>Gallery</h2>
-        </main>
-    )
-};
+const Gallery = () => <h2>Gallery</h2>;
 
 export default Gallery;

@@ -1,11 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-const Photographers = () => {
-    return (
-        <main className="main-content">
-            <h2>Photographers</h2>
-        </main>
-    )
-};
+const Photographers = () => <h2>Photographers</h2>;
 
 export default Photographers;

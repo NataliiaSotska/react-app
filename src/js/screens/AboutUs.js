@@ -1,11 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-const AboutUs = () => {
-    return (
-        <main className="main-content">
-            <h2>About Us</h2>
-        </main>
-    )
-};
+const AboutUs = () => <h2>About Us</h2>;
 
 export default AboutUs;
